@@ -13,7 +13,7 @@ import java.util.Scanner;
  *      3. 하단에서는 별의 개수를 줄여가며 출력한다.
  * - 결과 : [ 23328KB / 472ms ]
  */
-public class bj2445_3 {
+public class bj2445_1_3 {
     public static void main(String[] args) {
         // 1. 숫자 N을 입력 받는다.
         Scanner sc = new Scanner(System.in);

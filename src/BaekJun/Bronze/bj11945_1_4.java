@@ -23,7 +23,7 @@ import java.util.StringTokenizer;
  *      3. 반전된 각 줄을 출력
  * - 결과 : [ 14032KB / 100ms ]
  */
-public class bj11945_4 {
+public class bj11945_1_4 {
     public static void main(String[] args) throws IOException {
         // 1. 입력을 받기 위해 BufferedReader 사용
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

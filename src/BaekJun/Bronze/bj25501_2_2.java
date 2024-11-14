@@ -25,7 +25,7 @@ import java.io.InputStreamReader;
  *      4. 재귀 호출 횟수를 구하기 위해 호출 시마다 카운트를 증가시키도록 구현한다.
  * - 결과 [ 20780KB / 268ms ]
  */
-public class bj25501_10 {
+public class bj25501_2_2 {
 
     private static int recursionCount;
 

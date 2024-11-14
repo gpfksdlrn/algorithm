@@ -15,7 +15,7 @@ import java.util.Scanner;
  *      2. 두 수를 비교하여 알맞은 연산자를 출력한다.
  * - 결과 : [ 17672KB / 172ms ]
  */
-public class bj1330_1 {
+public class bj1330_1_1 {
     public static void main(String[] args) {
         // 1. 두 수를 입력받는다.
         Scanner sc = new Scanner(System.in);

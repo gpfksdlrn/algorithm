@@ -39,7 +39,7 @@ import java.io.InputStreamReader;
  *      3) 두 방식의 실행 횟수를 비교해, 동적 프로그래밍 방식의 효율성을 확인하는 것이 목표이다.
  * - 결과 : [ 16008KB / 500ms ]
  */
-public class bj24416_9 {
+public class bj24416_2_1 {
     // 실행 횟수를 저장할 변수 선언 및 초기화
     private static int recursionCount = 0;
     private static int dynamicCount = 0;

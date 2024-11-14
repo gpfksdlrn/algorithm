@@ -24,7 +24,7 @@ import java.util.Scanner;
  *      3. 더한 값을 '%' 나머지 연산을 활용해 검증수를 구해 출력한다.
  * - 결과 : [ 17616KB / 180ms ]
  */
-public class bj2475_2 {
+public class bj2475_1_2 {
     public static void main(String[] args) {
         // 1. 5자리 숫자를 입력 받는다.
         Scanner sc = new Scanner(System.in);
