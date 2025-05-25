@@ -5,12 +5,7 @@ function solution(participant, completion) {
   participant.sort();
   completion.sort();
 
-  for (let i = 0; i < completion.length; i++) {
-      if(participant[i] !== completion[i]) {
-         return participant[i];
-     }
+  for (let i in participant) {
+    if(participant[i] !== completion[i]) return participant[i];
   }
-
-  // 마지막 참가자가 완주하지 못한 경우
-  return participant[participant.length - 1];
 }
