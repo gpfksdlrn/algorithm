@@ -1,12 +1,7 @@
 function solution(sizes) {
-    const [w, h] = sizes
-        .map(([w, h]) => [
-            Math.max(w, h),
-            Math.min(w, h)
-        ])
-        .reduce(([maxW, maxH], [w, h]) => [
-            Math.max(maxW, w), Math.max(maxH, h)
-        ]);
+    const [width, height] = sizes.reduce(([maxW, maxH], [w, h]) => [
+            Math.max(maxW, Math.max(w, h)), Math.max(maxH, Math.min(w, h))
+        ], [0, 0]);
     
-    return w * h;
+    return width * height;
 }
